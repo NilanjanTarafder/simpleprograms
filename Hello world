@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main()
 {
-   printf("Hello, World!");
+   char c[50];
+   c="Hello World";
+   puts(c);
    return 0;
 }
